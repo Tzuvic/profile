@@ -1,0 +1,124 @@
+body {
+  font-family:'Nanum Gothic', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 25px;
+  background-color: white;
+}
+
+p {
+  color: #393E46;
+  margin-bottom: 40px;
+
+}
+h1 {
+  font-family:'Nunito Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: ;
+  color: #393E46;
+}
+
+h2 {
+  font-family:'Nunito Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: ;
+  color: #49ADB6;
+}
+
+h3 {
+  font-family:'Nunito Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: ;
+  color: #ED6663;
+}
+
+i {
+  font-size: 45px;
+  color: #222831;
+
+}
+
+i:hover {
+  color:#393E46;
+}
+
+.btn-teal {
+  background-color:#49ADB6;
+  padding: 15px 20px;
+  color:#EEEEEE;
+  border-radius:5px;
+  font-size:17px;
+  text-decoration: none;
+}
+.container {
+  margin-left: 362px;
+  margin-right: 362px;
+  padding-left: 0px;
+  margin-top: 40px;
+  border-bottom-width: 40px;
+
+}
+.card-white {
+  background-color:white;
+  padding: 60px 60px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#profile_pic {
+  border-radius: 48px
+}
+
+.inline-list {
+list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inline-list li {
+  padding: 10px;
+}
+ul {
+  display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 360px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100px;
+  }
+}
